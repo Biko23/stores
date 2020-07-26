@@ -1,0 +1,80 @@
+/*.centeredText{
+    text-align: center;
+}
+
+.galSelect{
+    padding: 200px, 200px, 200px, 200px;
+    
+}*/
+.wood{
+    background-color: rgb(255,200,135);
+}
+footer{
+    background-color:#333333;
+    color: #8AC53F;
+}
+.fullNav{
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: #8ac53f;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.navCovid{
+    float: right;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navList{
+    display: block;
+    padding: 8px;
+    display: inline;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+}
+#logoCenter{
+    text-align: center;
+    height: 100%;
+
+}
+.bodyCenter{
+    align-content: center;
+    text-align: center;
+}
+.tableCenter{
+    display: inline-block;
+}
+th{
+    padding: 5px 5px 5px 5px;
+}
+.tableHeader{
+    color: #333333;
+    background-color: #8AC53F;
+}
+.formContent{
+    padding: 5px, 5px, 5px, 5px;
+}
+.inpadding{
+    float: right;
+    padding: 5px, 5px, 5px, 5px;
+}
+.card{
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardimg{
+    width: 100%;
+}
