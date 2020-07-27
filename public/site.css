@@ -14,7 +14,7 @@ footer{
     top: 0px;
     width: 100%;
     position: fixed;
-    background-color: #8ac53f;
+    background-color: #333333;
 }
 .logo{
     width: 50px;
@@ -36,7 +36,7 @@ footer{
     display: inline;
 }
 a{
-    color: #333333;
+    color: #8AC53F;
     text-decoration: none;
     text-align: center;
 }
