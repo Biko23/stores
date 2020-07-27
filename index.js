@@ -2,6 +2,7 @@
 require('dotenv/config')
 const express = require ('express');
 const app = express();
+const home = require('./routes/home')
 const routes = require('./routes/registeration');
 const path = require ('path');
 const bodyParser = require ('body-parser');
@@ -31,7 +32,8 @@ app.use((req, res, next) =>{
     next()
 })
 
-app.use('/', routes);
+app.use('/', home);
+app.use('/registration', routes);
 
 /*
 app.get('/pathparams/:name', (req, res) =>{
