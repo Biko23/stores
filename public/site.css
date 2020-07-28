@@ -11,10 +11,11 @@ footer{
     color: #8AC53F;
 }
 .fullNav{
-    top: 0px;
-    width: 100%;
     position: fixed;
-    background-color: #333333;
+}
+.csBrand{
+    color: #8AC53F;
+    padding-left: 10px;
 }
 .logo{
     width: 50px;
@@ -71,9 +72,7 @@ th{
 }
 .card{
     float: left;
-    margin-right: 1%;
     margin-bottom: 10px;
-    width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }

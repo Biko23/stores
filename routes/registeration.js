@@ -7,7 +7,7 @@ const UserReg = mongoose.model('users');
 
 router.get('/', async (req, res) => {
     //res.send('It works')
-   res.render('index');
+   res.render('reg');
 })
 
 router.get('/users', async(req, res) => {
@@ -52,7 +52,9 @@ router.post('/', async(req, res) => {
         city: req.body.city,
         designation: req.body.designation,
         nin: req.body.nin,
-        eid: req.body.eid
+        eid: req.body.eid,
+        password: req.body.password,
+        
     });
     try{
         userRegisteration.save()
